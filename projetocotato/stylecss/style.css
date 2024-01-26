@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: #6abb0d;
+}
+
+.list-wrapper {
+    background-color: white;
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px black;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    margin: 0px;
+}
+
+.list-item:hover {
+    background-color: #eee;
+}
+
+.list-item__imagem img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.list-item__content {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.list-item__name {
+    font-size: 24px;
+    color: #162b2b;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.list-item__email {
+    color: #ccc;
+    margin: 0;
+}
+
+.list-item__action {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    opacity: 0;
+}
+
+.list-item:hover .list-item__action {
+    opacity: .3;
+}
