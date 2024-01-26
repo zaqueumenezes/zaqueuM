@@ -1,2 +1,2 @@
 # zaqueuM
- revendo gihub
+ Revendo github para mmaior assimilação
