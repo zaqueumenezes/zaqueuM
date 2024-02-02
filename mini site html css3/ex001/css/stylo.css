@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.pg2__html .pg2__body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(/imagens/devclub.jpg);
+    background-position: top center;
+    background-size: cover;
+    height: 600px;
+    padding: 1px;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 185px;
+    color: white;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px rgb(218, 165, 32);
+    font-weight: bolder;
+}
+
+.hero-content p {
+    background-color: rgba(22, 130, 100, .8);
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+    text-transform: capitalize;
+}
+
+span {
+    color: red;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.hero ul {
+    margin: auto;
+    text-align: right;
+    list-style-type: none;
+}
+
+.hero li {
+    display: inline-block;
+    margin: 15px 30px 0 0px;
+    text-transform: uppercase;
+}
+
+.hero a {
+    color: white;
+    background-color: rgba(218, 165, 32, .8);
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 4px 10px #000000;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.caixa {
+    margin: auto;
+    width: 80%;
+    max-width: 860px;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+h2 {
+    background-color: #e8e8e8;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.link {
+    background-color: #616161;
+    padding: 10px;
+    border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    max-width: fit-content;
+    color: #ccc;
+    font-weight: bolder;
+    line-height: 10px;
+}
+
+
+.cabecalho {
+    text-align: center;
+    font-weight: bolder;
+    color: #e8e8e8;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: auto;
+    width: 68%;
+    max-width: 798px;
+}
